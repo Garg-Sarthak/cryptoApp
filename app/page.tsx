@@ -19,6 +19,7 @@ export default function Home() {
   return (
     <div>
       Price : {price}
+      data
     </div>
   );
 }
