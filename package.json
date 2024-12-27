@@ -13,9 +13,14 @@
     "@prisma/client": "^6.1.0",
     "clerk": "^0.8.3",
     "dotenv": "^16.4.7",
+    "net": "^1.0.2",
     "next": "15.1.2",
+    "node-redis": "^0.1.7",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "recoil": "^0.7.7",
+    "redis": "^4.7.0",
+    "tls": "^0.0.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
