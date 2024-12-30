@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 
 export default function Header() {
   return (
-    <header className="flex justify-between items-center p-4 bg-black text-white border-b border-gray-700"> {/* Updated styling */}
+    <header className="bg-[#0A0A0A] border-b-4 border-[#3a3836] shadow-md flex justify-between items-center p-4 text-white "> {/* Updated styling */}
       {/* Left Side (Buttons) */}
       <div className="flex space-x-4">
         <Link href="/tradePage" className="hover:text-gray-300"> {/* Updated hover effect */}

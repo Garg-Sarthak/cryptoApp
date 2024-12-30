@@ -27,13 +27,14 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
-        <body>
-          <header>
+        <body className="bg-gradient-to-b from-[#2C2C3E] to-[#1E1E2E]">
+        {/* <body className="bg-gradient-to-br from-[#0A192F] to-[#00498D]"> */}
+          <header >
             <SignedIn>
               <Header/>
             </SignedIn>
           </header>
-          <main>{children}</main>
+          <main >{children}</main>
         </body>
       </html>
     </ClerkProvider>
